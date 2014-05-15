@@ -1,0 +1,111 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans";
+  font-weight: 300;
+  background: #fbfbfb;
+  color: #252525; }
+
+a {
+  color: #01dcf7; }
+  a:hover {
+    color: #2de7fe; }
+
+.demo-header {
+  padding: 1em 0;
+  background: #252525;
+  color: #fbfbfb;
+  border-bottom: 2px solid #414141; }
+
+.demo-header_left {
+  text-align: left; }
+
+.demo-header_right {
+  text-align: right; }
+  .demo-header_right a {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: .9em; }
+    .demo-header_right a:hover span {
+      right: 110%; }
+  .demo-header_right span {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 0;
+    position: absolute;
+    top: .3em;
+    right: 105%;
+    -webkit-transition: right 0.1s ease;
+    -moz-transition: right 0.1s ease;
+    transition: right 0.1s ease; }
+
+#main {
+  padding: 20px 0 80px; }
+
+.demo-top {
+  padding: 1.5em 0 1.2em;
+  text-align: center; }
+  .demo-top h1 {
+    margin: 0; }
+
+.demo-footer {
+  padding: 1em 0;
+  text-align: center; }
+  .demo-footer p {
+    margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans";
+  line-height: 1.2; }
+
+input:not([type="submit"]), textarea, select, fieldset {
+  background-color: #fff;
+  box-shadow: none;
+  border-radius: 2px;
+  outline: none; }
+  input:not([type="submit"]):focus, textarea:focus, select:focus, fieldset:focus {
+    background-color: #fff;
+    box-shadow: none; }
+
+.error input:not([type="submit"]), .error textarea, .error select, .error fieldset {
+  background-color: #fff1f1; }
+.error small.error {
+  font-style: normal;
+  border-radius: 4px;
+  background: #ff4444;
+  display: block;
+  margin-top: .5em;
+  font-weight: 700; }
+
+small.error {
+  display: none; }
+
+#form-headline {
+  text-align: center;
+  font-weight: 700;
+  margin: 0 0 2em; }
+
+#submit {
+  position: relative;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  outline: none;
+  display: block;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding: .8em 4em;
+  background: #252525;
+  color: #fbfbfb;
+  border: none;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 5px rgba(37, 37, 37, 0.25); }
+  #submit:active {
+    top: 1px;
+    box-shadow: none; }
